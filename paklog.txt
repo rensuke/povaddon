@@ -1,0 +1,5 @@
+writing invidual files to ./
+   reading file ./hokora.dat
+   writing file ./building.Hokora.pak
+      packing building.Hokora
+Makeobj version 60.0 for Simutrans 120.2 and higher

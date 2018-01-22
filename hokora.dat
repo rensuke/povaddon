@@ -1,0 +1,13 @@
+Obj=building
+Name=Hokora
+Type=cur
+Passengers=1
+Build_Time=0
+Chance=30
+Dims=1,1,4
+intro_year=1900
+climates=
+BackImage[0][0][0][0][0][0]=hokora.0.0
+BackImage[1][0][0][0][0][0]=hokora.0.1
+BackImage[2][0][0][0][0][0]=hokora.0.2
+BackImage[3][0][0][0][0][0]=hokora.0.3

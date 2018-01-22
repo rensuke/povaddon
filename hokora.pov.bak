@@ -1,0 +1,16 @@
+#include "colors.inc"
+#include "shapes.inc"
+
+//カメラ設定
+camera{
+    location <90, 60, 90> //位置<x, y, z>
+    look_at <0, 0, 0> //注視点<x, y, z>
+    angle 5 //角度
+}
+
+light_source{<35, 15, 10> color White}
+
+object{
+    box{<0, 0, 0>, <5, 5, 5>}
+    pigment{color Orange}
+}
