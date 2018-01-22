@@ -10,7 +10,7 @@ object {
 		linear_sweep
 		linear_spline
 		-H, +H
-		3				// number of vertices
+		3,				// number of vertices
 		<R*cos(0),      R*sin(0)>	// <x, z>
 		<R*cos(2*pi/3), R*sin(2*pi/3)>
 		<R*cos(4*pi/3), R*sin(4*pi/3)>
@@ -28,14 +28,22 @@ camera{
     angle 5 //äpìx
 }
 
+// ç¿ïWé≤
+object { Cylinder_X scale 0.02 pigment{color Red} }	// xé≤
+object { Cylinder_Y scale 0.02 pigment{color Green} }	// yé≤
+object { Cylinder_Z scale 0.02 pigment{color Blue} }	// zé≤
+
+
 light_source{<35, 15, 10> color White}
 
-object{
-    box{<-1, -1, -1>, <-2, -2, -2>}
-    pigment{color Orange}
-}
-object {
-	TriPrism(0.5, 0.5)
-	pigment { color NeonPink } 
-	rotate<0, 0, 90>
-}
+//merge{
+    object{
+        box{<0, 0, 0>, <-1, -1, -1>}
+        pigment{color Orange}
+    }
+    object {
+    	TriPrism(0.5, 1)
+    	pigment { color NeonPink } 
+    	rotate<0, 0, 90>
+    }
+//}
