@@ -23,7 +23,7 @@ background { color LightBlue }
 
 //カメラ設定
 camera{
-    location <50, 50, 50> //位置<x, y, z>
+    location <100, 100, 100> //位置<x, y, z>
     look_at <0, 0, 0> //注視点<x, y, z>
     angle 5 //角度
 }
@@ -44,6 +44,6 @@ light_source{<35, 15, 10> color White}
     object {
     	TriPrism(0.5, 1)
     	pigment { color NeonPink } 
-    	rotate<0, 0, 90>
+//    	rotate<0, 0, 90>
     }
 //}
